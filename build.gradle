@@ -1,6 +1,5 @@
 import gradle.task.ReobfuscateTask
 import gradle.task.ShrinkJarTask
-
 plugins {
     id 'java'
     id 'maven'
@@ -29,7 +28,7 @@ repositories {
     }
 }
 
-group = 'cn.pfcraft.server'
+group = 'cn.i-creator'
 version = versioning {
     full {it.abbreviated}
     dirty = { t -> t }
